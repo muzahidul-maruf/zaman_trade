@@ -57,7 +57,7 @@
                 <div class="row gy-4">
                     <div class="col-lg-8 details">
 
-                        <h3 class="section_title" style="color: #458300">WHO WE ARE</h3>
+                        <h3 class="section_title" style="color: #038C33">WHO WE ARE</h3>
 
                         <p class="f-18 text-dark">Zaman Trade International is a leading international trading company with a
                             primary
@@ -82,32 +82,125 @@
             <div class="container">
 
                 <div class="section-title">
-                    <h2 class="section_title" style="color: #458300">OUR SERVICES</h2>
+                    <h2 class="section_title" style="color: #038C33">OUR SERVICES</h2>
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6 ">
+                    <div class="col-lg-4 col-md-6 mb-4">
                         <div class="icon-box">
                             <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/2.png') }}"
                                 alt="">
-                            <h4 class="mt-4">Agricultural Products Producer</h4>
+                            <h5 class="mt-4">Agricultural Products Producer</h5>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 ">
+                    <div class="col-lg-4 col-md-6 mb-4">
                         <div class="icon-box">
-                            <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/2.png') }}"
+                            <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/3.png') }}"
                                 alt="">
-                            <h4 class="mt-4">Agricultural Products Producer</h4>
+                            <h5 class="mt-4">Agricultural Products Distributor</h5>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 ">
+                    <div class="col-lg-4 col-md-6 mb-4">
                         <div class="icon-box">
-                            <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/2.png') }}"
+                            <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/4.png') }}"
                                 alt="">
-                            <h4 class="mt-4">Agricultural Products Producer</h4>
+                            <h5 class="mt-4">Agro Machinery Supplier</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="icon-box">
+                            <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/5.png') }}"
+                                alt="">
+                            <h5 class="mt-4">Warehouse Facility</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="icon-box">
+                            <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/6.png') }}"
+                                alt="">
+                            <h5 class="mt-4">Garments Products (Knit Item)</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="icon-box">
+                            <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/7.png') }}"
+                                alt="">
+                            <h5 class="mt-4">Manpower Outsourcing and Vendor Management</h5>
                         </div>
                     </div>
 
+                </div>
+            </div>
+        </section>
+
+
+        <section id="about" class="about pt-0">
+            <div class="container">
+                <div class="section-title">
+                    <h2 class="section_title" style="color: #038C33">WHY CHOOSE US</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 py-1 px-lg-5">
+                        <div class="text-center">
+                            <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/8.png') }}"
+                                alt="">
+                        </div>
+                        <h5 class="text-center py-2 text-dark"><b>Loyalty</b></h5>
+                        <p class="text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                            doloremque
+                            laudantium, totam rem aperiam, eaque ipsa qua</p>
+                    </div>
+                    <div class="col-md-4 py-1 px-lg-5">
+                        <div class="text-center">
+                            <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/9.png') }}"
+                                alt="">
+                        </div>
+                        <h5 class="text-center py-2 text-dark"><b>Honesty</b></h5>
+                        <p class="text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                            doloremque
+                            laudantium, totam rem aperiam, eaque ipsa qua</p>
+                    </div>
+                    <div class="col-md-4 py-1 px-lg-5">
+                        <div class="text-center">
+                            <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/10.png') }}"
+                                alt="">
+                        </div>
+                        <h5 class="text-center py-2 text-dark"><b>Integrity</b></h5>
+                        <p class="text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                            doloremque
+                            laudantium, totam rem aperiam, eaque ipsa qua</p>
+                    </div>
+                    <div class="col-md-4 py-1 px-lg-5">
+                        <div class="text-center">
+                            <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/11.png') }}"
+                                alt="">
+                        </div>
+                        <h5 class="text-center py-2 text-dark"><b>Reliability</b></h5>
+                        <p class="text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                            doloremque
+                            laudantium, totam rem aperiam, eaque ipsa qua</p>
+                    </div>
+                    <div class="col-md-4 py-1 px-lg-5">
+                        <div class="text-center">
+                            <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/12.png') }}"
+                                alt="">
+                        </div>
+                        <h5 class="text-center py-2 text-dark"><b>Transparency</b></h5>
+                        <p class="text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                            doloremque
+                            laudantium, totam rem aperiam, eaque ipsa qua</p>
+                    </div>
+                    <div class="col-md-4 py-1 px-lg-5">
+                        <div class="text-center">
+                            <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/13.png') }}"
+                                alt="">
+                        </div>
+                        <h5 class="text-center py-2 text-dark"><b>Mutual Respect</b></h5>
+                        <p class="text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                            doloremque
+                            laudantium, totam rem aperiam, eaque ipsa qua</p>
+                    </div>
                 </div>
 
             </div>
@@ -117,102 +210,103 @@
         <section id="about" class="about pt-0">
             <div class="container">
                 <div class="section-title">
-                    <h2 class="section_title" style="color: #458300">WHY CHOOSE US</h2>
-
-                    <h4 class="text-uppercase" style="font-weight: 700; color:#2E3191">
-                        some of the remarkable features that make our center a unique and indispensable resource
-                    </h4>
+                    <h2 class="section_title text-start" style="color: #038C33">OUR FEATURE PRODUCTS</h2>
                 </div>
 
                 <div class="row">
-
-                    <div
-                        class="col-md-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-1 px-lg-5">
-
-                        <div class="icon-box">
-                            <div class="icon"><i class="fa-regular fa-snowflake"></i></div>
-                            <h4 class="title"><a href="#">Dehumidifier and humidifier System</a></h4>
-                            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                blanditiis
-                                praesentium voluptatum deleniti atque</p>
-                        </div>
-
-                        <div class="icon-box">
-                            <div class="icon"><i class="fa-solid fa-flask-vial"></i></div>
-                            <h4 class="title"><a href="#">Laboratory Equipment and Facility</a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                                excepturi sint occaecati cupiditate non provident</p>
-                        </div>
-
-                        <div class="icon-box">
-                            <div class="icon"><i class="bx bx-gift"></i></div>
-                            <h4 class="title"><a href="#">Manual Packing</a></h4>
-                            <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis
-                                odit. Sunt aut deserunt minus aut eligendi omnis</p>
-                        </div>
-
-                    </div>
-                    <div
-                        class="col-md-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-1 px-lg-5">
-
-                        <div class="icon-box">
-                            <div class="icon"><i class="fa-solid fa-temperature-low"></i></div>
-                            <h4 class="title"><a href="#">Pre-Cool/Heat Room</a></h4>
-                            <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis
-                                odit. Sunt aut deserunt minus aut eligendi omnis</p>
-                        </div>
-
-                        <div class="icon-box">
-                            <div class="icon"><i class="fa-solid fa-seedling"></i></div>
-                            <h4 class="title"><a href="#">Favorable Environment
-                                    for Quality Products </a></h4>
-                            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                blanditiis
-                                praesentium voluptatum deleniti atque</p>
-                        </div>
-
-                        <div class="icon-box">
-                            <div class="icon"><i class="fa-solid fa-charging-station"></i></div>
-                            <h4 class="title"><a href="#">Backup Generator</a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                                excepturi sint occaecati cupiditate non provident</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row justify-content-center mt-5" style="border-radius: 10px;">
-                    <div class="col-md-4 d-flex justify-content-center align-items-center"
-                        style="background-color: #2E3191;">
-                        <div class="text-white py-5 w-100" style="">
-                            <p class="mb-3 text-center"><i class="fa-regular fa-file-pdf fa-2xl"></i></p>
-                            <h6 class="text-center"><b>Download Our Brochure</b></h6>
-                            <p class="text-center">View more details of Ascko MSP Centre</p>
-                            <div class="d-flex justify-content-center">
-                                <a href="" class="appointment-btn mb-2 py-2"
-                                    style="background-color: #458301">Download Now</a>
+                    <div class="col-md-4 col-lg-3 mb-4">
+                        <div class="card" style="border: 2px solid #038C33">
+                            <img src="{{ asset('frontend_assets/common/homePage/14.png') }}"
+                                class="card-img-top p-3 img-fluid" alt="...">
+                            <div class="card-body text-center">
+                                <p class="card-text">Grain Moisture Meter LDS 1G</p>
+                                <a href="#" class="btn text-white" style="background-color: #038C33">Read More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 px-0">
-                        <img class="img-fluid" src="{{ asset('frontend_assets/common/33.png') }}" alt="">
+                    <div class="col-md-4 col-lg-3 mb-4">
+                        <div class="card" style="border: 2px solid #038C33">
+                            <img src="{{ asset('frontend_assets/common/homePage/15.png') }}"
+                                class="card-img-top p-3 img-fluid" alt="...">
+                            <div class="card-body text-center">
+                                <p class="card-text">Portable Moisture Meter Wile 200</p>
+                                <a href="#" class="btn text-white" style="background-color: #038C33">Read More</a>
+                            </div>
+                        </div>
                     </div>
+                    <div class="col-md-4 col-lg-3 mb-4">
+                        <div class="card" style="border: 2px solid #038C33">
+                            <img src="{{ asset('frontend_assets/common/homePage/16.png') }}"
+                                class="card-img-top p-3 img-fluid" alt="...">
+                            <div class="card-body text-center">
+                                <p class="card-text">High Accuracy Automatic Seed Counter</p>
+                                <a href="#" class="btn text-white" style="background-color: #038C33">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 mb-4">
+                        <div class="card" style="border: 2px solid #038C33">
+                            <img src="{{ asset('frontend_assets/common/homePage/17.png') }}"
+                                class="card-img-top p-3 img-fluid" alt="...">
+                            <div class="card-body text-center">
+                                <p class="card-text">Precision Seed Divider</p>
+                                <a href="#" class="btn text-white" style="background-color: #038C33">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 mb-4">
+                        <div class="card" style="border: 2px solid #038C33">
+                            <img src="{{ asset('frontend_assets/common/homePage/18.png') }}"
+                                class="card-img-top p-3 img-fluid" alt="...">
+                            <div class="card-body text-center">
+                                <p class="card-text">Thresher of Rice Wheat</p>
+                                <a href="#" class="btn text-white" style="background-color: #038C33">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 mb-4">
+                        <div class="card" style="border: 2px solid #038C33">
+                            <img src="{{ asset('frontend_assets/common/homePage/19.png') }}"
+                                class="card-img-top p-3 img-fluid" alt="...">
+                            <div class="card-body text-center">
+                                <p class="card-text">New Style Laboratory Thresher</p>
+                                <a href="#" class="btn text-white" style="background-color: #038C33">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 mb-4">
+                        <div class="card" style="border: 2px solid #038C33">
+                            <img src="{{ asset('frontend_assets/common/homePage/20.png') }}"
+                                class="card-img-top p-3 img-fluid" alt="...">
+                            <div class="card-body text-center">
+                                <p class="card-text">Seed Germination Incubator</p>
+                                <a href="#" class="btn text-white" style="background-color: #038C33">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 mb-4">
+                        <div class="card" style="border: 2px solid #038C33">
+                            <img src="{{ asset('frontend_assets/common/homePage/21.png') }}"
+                                class="card-img-top p-3 img-fluid" alt="...">
+                            <div class="card-body text-center">
+                                <p class="card-text">Seed Neatness Workbench</p>
+                                <a href="#" class="btn text-white" style="background-color: #038C33">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+
 
             </div>
         </section>
 
 
 
-
         <section id="about" class="about client_slider pt-0">
 
             <div class="section-title">
-                <h2 class="section_title" style="color: #458300">OUR CLIENTS</h2>
-
-                <h4 class="text-uppercase" style="font-weight: 700; color:#2E3191">
-                    Trusted by Visionaries: Our Valued Clients
-                </h4>
+                <h2 class="section_title" style="color: #038C33">OUR VALUABLE CLIENTS</h2>
             </div>
             <section class="client-slider">
                 <div class="slider">
@@ -234,6 +328,28 @@
                     </div>
                 </div>
             </section>
+            <section class="client-slider">
+                <div class="slider">
+                    <div class="logos me-3 me-md-0">
+                        {{-- <img src="{{ asset('frontend_assets/common/client-slider/7.png') }}"> --}}
+                        <img src="{{ asset('frontend_assets/common/client-slider/8.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/9.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/10.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/11.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/12.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/13.png') }}">
+                    </div>
+                    <div class="logos">
+                        {{-- <img src="{{ asset('frontend_assets/common/client-slider/7.png') }}"> --}}
+                        <img src="{{ asset('frontend_assets/common/client-slider/8.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/9.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/10.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/11.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/12.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/13.png') }}">
+                    </div>
+                </div>
+            </section>
 
         </section>
 
@@ -242,7 +358,7 @@
             <div class="container">
 
                 <div class="section-title">
-                    <h2 class="section_title" style="color: #2E3191">OUR CLIENT’S SAY</h2>
+                    <h2 class="section_title" style="color: #038C33">What our clients say</h2>
                 </div>
 
                 <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -262,7 +378,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div><!-- End testimonial item -->
+                        </div>
 
                         <div class="swiper-slide">
                             <div class="testimonial-wrap">
@@ -279,7 +395,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div><!-- End testimonial item -->
+                        </div>
                         <div class="swiper-slide">
                             <div class="testimonial-wrap">
                                 <div class="testimonial-item">
@@ -294,7 +410,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div><!-- End testimonial item -->
+                        </div>
 
                         <div class="swiper-slide">
                             <div class="testimonial-wrap">
@@ -311,7 +427,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div><!-- End testimonial item -->
+                        </div>
 
 
                     </div>
