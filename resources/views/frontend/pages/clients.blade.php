@@ -23,6 +23,7 @@
             border-radius: 2px 2px 25px 2px;
             color: #fff;
             margin-bottom: 15px;
+            padding: 2px 10px;
         }
     </style>
 @endsection
@@ -74,6 +75,9 @@
                                     class="img-fluid">
                             </a>
                         </div>
+                        <div class="gallery_footer">
+                            Syngenta Bangladesh Ltd
+                        </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
@@ -81,6 +85,9 @@
                                 <img src="{{ asset('frontend_assets/common/local_clients/4.png') }}" alt=""
                                     class="img-fluid">
                             </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Corteva Agri Science
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
@@ -90,6 +97,9 @@
                                     class="img-fluid">
                             </a>
                         </div>
+                        <div class="gallery_footer">
+                            Macdonald Bangladesh Limited
+                        </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
@@ -97,6 +107,9 @@
                                 <img src="{{ asset('frontend_assets/common/local_clients/6.png') }}" alt=""
                                     class="img-fluid">
                             </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Mahdin Group
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
@@ -106,6 +119,9 @@
                                     class="img-fluid">
                             </a>
                         </div>
+                        <div class="gallery_footer">
+                            Askco Group
+                        </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
@@ -113,6 +129,9 @@
                                 <img src="{{ asset('frontend_assets/common/local_clients/8.png') }}" alt=""
                                     class="img-fluid">
                             </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Genitica
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
@@ -122,6 +141,9 @@
                                     class="img-fluid">
                             </a>
                         </div>
+                        <div class="gallery_footer">
+                            Aarong
+                        </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
@@ -129,6 +151,9 @@
                                 <img src="{{ asset('frontend_assets/common/local_clients/10.png') }}" alt=""
                                     class="img-fluid">
                             </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Lal Teer Seed Limited
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
@@ -138,13 +163,20 @@
                                     class="img-fluid">
                             </a>
                         </div>
+                        <div class="gallery_footer">
+                            Ispahani Agro Limited
+                        </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="{{ asset('frontend_assets/common/local_clients/12.png') }}" class="galelry-lightbox">
+                            <a href="{{ asset('frontend_assets/common/local_clients/12.png') }}"
+                                class="galelry-lightbox">
                                 <img src="{{ asset('frontend_assets/common/local_clients/12.png') }}" alt=""
                                     class="img-fluid">
                             </a>
+                        </div>
+                        <div class="gallery_footer">
+                            ACI Limited
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
@@ -155,6 +187,9 @@
                                     class="img-fluid">
                             </a>
                         </div>
+                        <div class="gallery_footer">
+                            Suprime Seed Company Limited
+                        </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
@@ -163,6 +198,9 @@
                                 <img src="{{ asset('frontend_assets/common/local_clients/14.png') }}" alt=""
                                     class="img-fluid">
                             </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Surovi Group
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
@@ -173,6 +211,9 @@
                                     class="img-fluid">
                             </a>
                         </div>
+                        <div class="gallery_footer">
+                            Igloo Ice Cream
+                        </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
@@ -181,6 +222,9 @@
                                 <img src="{{ asset('frontend_assets/common/local_clients/16.png') }}" alt=""
                                     class="img-fluid">
                             </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Bondhon Genetics Limited
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
@@ -191,6 +235,9 @@
                                     class="img-fluid">
                             </a>
                         </div>
+                        <div class="gallery_footer">
+                            Royel IT Limited
+                        </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
@@ -199,6 +246,9 @@
                                 <img src="{{ asset('frontend_assets/common/local_clients/18.png') }}" alt=""
                                     class="img-fluid">
                             </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Alli Contraction Ltd
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
@@ -209,6 +259,9 @@
                                     class="img-fluid">
                             </a>
                         </div>
+                        <div class="gallery_footer">
+                            Bangladesh Police
+                        </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
@@ -217,6 +270,9 @@
                                 <img src="{{ asset('frontend_assets/common/local_clients/20.png') }}" alt=""
                                     class="img-fluid">
                             </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Indigo Positive Limited
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
@@ -227,6 +283,9 @@
                                     class="img-fluid">
                             </a>
                         </div>
+                        <div class="gallery_footer">
+                            Brain Work Limited
+                        </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
@@ -235,6 +294,9 @@
                                 <img src="{{ asset('frontend_assets/common/local_clients/22.png') }}" alt=""
                                     class="img-fluid">
                             </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Indigo Anjum Limited
                         </div>
                     </div>
 
@@ -247,6 +309,9 @@
                                     class="img-fluid">
                             </a>
                         </div>
+                        <div class="gallery_footer">
+                            Pally Bazar Limited
+                        </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
@@ -255,6 +320,9 @@
                                 <img src="{{ asset('frontend_assets/common/local_clients/24.png') }}" alt=""
                                     class="img-fluid">
                             </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Individual Client around the country (160+)
                         </div>
                     </div>
 

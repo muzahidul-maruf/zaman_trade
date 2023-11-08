@@ -55,7 +55,7 @@
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Your email" aria-label="Your email"
                             aria-describedby="button-addon2">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
+                        <button class="btn" type="button" id="button-addon2" style="background: #fff"><i
                                 class="fa-solid fa-paper-plane" style="color: #025928"></i></button>
                     </div>
 
