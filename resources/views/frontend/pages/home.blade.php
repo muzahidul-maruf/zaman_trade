@@ -306,9 +306,9 @@
         <section id="about" class="about client_slider pt-0">
 
             <div class="section-title">
-                <h2 class="section_title" style="color: #038C33">OUR VALUABLE CLIENTS</h2>
+                <h2 class="section_title mb-0" style="color: #038C33">OUR VALUABLE CLIENTS</h2>
             </div>
-            <section class="client-slider">
+            <section class="client-slider" style="padding: 20px 0px">
                 <div class="slider">
                     <div class="logos me-3 me-md-0">
                         <img src="{{ asset('frontend_assets/common/client-slider/1.png') }}">
@@ -328,7 +328,7 @@
                     </div>
                 </div>
             </section>
-            <section class="client-slider">
+            <section class="client-slider" style="padding: 20px 0px">
                 <div class="slider">
                     <div class="logos me-3 me-md-0">
                         {{-- <img src="{{ asset('frontend_assets/common/client-slider/7.png') }}"> --}}
@@ -355,10 +355,10 @@
 
 
         <section id="testimonials" class="testimonials pt-0">
-            <div class="container">
+            <div class="container pt-5" style="background-color: #038C33; border-radius: 10px;">
 
-                <div class="section-title">
-                    <h2 class="section_title" style="color: #038C33">What our clients say</h2>
+                <div class="section-title pb-0">
+                    <h2 class="section_title mb-0 text-uppercase" style="color: #fff">What our clients say</h2>
                 </div>
 
                 <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -367,69 +367,25 @@
                         <div class="swiper-slide">
                             <div class="testimonial-wrap">
                                 <div class="testimonial-item">
+                                    <p class="text-white">
+                                        <i class="bx bxs-quote-alt-left quote-icon-left" style=""></i>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt mollit anim id est laborum."
+                                        <i class="bx bxs-quote-alt-right quote-icon-right" style=""></i>
+                                    </p>
                                     <img src="{{ asset('frontend_assets/common/avater.png') }}" class="testimonial-img"
                                         alt="">
-                                    <h3>Abdur Rahman</h3>
-                                    <h4>Manager</h4>
-                                    <p>
-                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Excellent facility. Showing be very useful for the industry.
-                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                    </p>
+                                    <h3 class="text-white">Shafayat Rahman</h3>
+                                    <h4 class="text-white mb-0">Manager</h4>
+                                    <p class="text-white">ABC Seed Company</p>
+
                                 </div>
                             </div>
                         </div>
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-wrap">
-                                <div class="testimonial-item">
-                                    <img src="{{ asset('frontend_assets/common/avater.png') }}" class="testimonial-img"
-                                        alt="">
-                                    <h3>Jamil Hasan</h3>
-                                    <h4>Manager</h4>
-                                    <p>
-                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Simply superb. I’ve never seen such a modern facility in any seed company. Askco MSP
-                                        Centre Ltd. is really ahead of time, taking care of future needs of seed industry
-                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-wrap">
-                                <div class="testimonial-item">
-                                    <img src="{{ asset('frontend_assets/common/avater.png') }}" class="testimonial-img"
-                                        alt="">
-                                    <h3>Abdur Rahman</h3>
-                                    <h4>Manager</h4>
-                                    <p>
-                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Excellent facility. Showing be very useful for the industry.
-                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-wrap">
-                                <div class="testimonial-item">
-                                    <img src="{{ asset('frontend_assets/common/avater.png') }}" class="testimonial-img"
-                                        alt="">
-                                    <h3>Jamil Hasan</h3>
-                                    <h4>Manager</h4>
-                                    <p>
-                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Simply superb. I’ve never seen such a modern facility in any seed company. Askco MSP
-                                        Centre Ltd. is really ahead of time, taking care of future needs of seed industry
-                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
