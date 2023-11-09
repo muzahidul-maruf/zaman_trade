@@ -25,7 +25,7 @@
                         <li><a class="@yield('transport_menu_active')" href="{{ route('transport') }}">Transport</a></li>
                     </ul>
                 </li> --}}
-                <li><a class="nav-link scrollto @yield('clients_menu_active')" href="#"><b>OUR PRODUCTS</b></a>
+                <li><a class="nav-link scrollto @yield('products_menu_active')" href="{{route('all-products')}}"><b>OUR PRODUCTS</b></a>
                 </li>
                 <li><a class="nav-link scrollto @yield('clients_menu_active')" href="{{ route('clients') }}"><b>OUR CLIENTS</b></a>
                 </li>
