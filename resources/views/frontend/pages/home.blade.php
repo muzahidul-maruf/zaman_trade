@@ -87,42 +87,42 @@
 
                 <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="icon-box">
+                        <div class="icon-box" style="height: 100%">
                             <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/2.png') }}"
                                 alt="">
                             <h5 class="mt-4">Agricultural Products Producer</h5>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="icon-box">
+                        <div class="icon-box" style="height: 100%">
                             <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/3.png') }}"
                                 alt="">
                             <h5 class="mt-4">Agricultural Products Distributor</h5>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="icon-box">
+                        <div class="icon-box" style="height: 100%">
                             <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/4.png') }}"
                                 alt="">
                             <h5 class="mt-4">Agro Machinery Supplier</h5>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="icon-box">
+                        <div class="icon-box" style="height: 100%">
                             <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/5.png') }}"
                                 alt="">
                             <h5 class="mt-4">Warehouse Facility</h5>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="icon-box">
+                        <div class="icon-box" style="height: 100%">
                             <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/6.png') }}"
                                 alt="">
                             <h5 class="mt-4">Garments Products (Knit Item)</h5>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="icon-box">
+                        <div class="icon-box" style="height: 100%">
                             <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/7.png') }}"
                                 alt="">
                             <h5 class="mt-4">Manpower Outsourcing and Vendor Management</h5>
@@ -215,7 +215,7 @@
 
                 <div class="row">
                     <div class="col-md-4 col-lg-3 mb-4">
-                        <div class="card" style="border: 2px solid #038C33">
+                        <div class="card" style="border: 2px solid #038C33;height:100%;">
                             <img src="{{ asset('frontend_assets/common/homePage/14.png') }}"
                                 class="card-img-top p-3 img-fluid" alt="...">
                             <div class="card-body text-center">
@@ -225,7 +225,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-3 mb-4">
-                        <div class="card" style="border: 2px solid #038C33">
+                        <div class="card" style="border: 2px solid #038C33;height:100%;">
                             <img src="{{ asset('frontend_assets/common/homePage/15.png') }}"
                                 class="card-img-top p-3 img-fluid" alt="...">
                             <div class="card-body text-center">
@@ -235,7 +235,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-3 mb-4">
-                        <div class="card" style="border: 2px solid #038C33">
+                        <div class="card" style="border: 2px solid #038C33;height:100%;">
                             <img src="{{ asset('frontend_assets/common/homePage/16.png') }}"
                                 class="card-img-top p-3 img-fluid" alt="...">
                             <div class="card-body text-center">
@@ -245,7 +245,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-3 mb-4">
-                        <div class="card" style="border: 2px solid #038C33">
+                        <div class="card" style="border: 2px solid #038C33;height:100%;">
                             <img src="{{ asset('frontend_assets/common/homePage/17.png') }}"
                                 class="card-img-top p-3 img-fluid" alt="...">
                             <div class="card-body text-center">
@@ -255,7 +255,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-3 mb-4">
-                        <div class="card" style="border: 2px solid #038C33">
+                        <div class="card" style="border: 2px solid #038C33;height:100%;">
                             <img src="{{ asset('frontend_assets/common/homePage/18.png') }}"
                                 class="card-img-top p-3 img-fluid" alt="...">
                             <div class="card-body text-center">
@@ -265,7 +265,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-3 mb-4">
-                        <div class="card" style="border: 2px solid #038C33">
+                        <div class="card" style="border: 2px solid #038C33;height:100%;">
                             <img src="{{ asset('frontend_assets/common/homePage/19.png') }}"
                                 class="card-img-top p-3 img-fluid" alt="...">
                             <div class="card-body text-center">
@@ -275,7 +275,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-3 mb-4">
-                        <div class="card" style="border: 2px solid #038C33">
+                        <div class="card" style="border: 2px solid #038C33;height:100%;">
                             <img src="{{ asset('frontend_assets/common/homePage/20.png') }}"
                                 class="card-img-top p-3 img-fluid" alt="...">
                             <div class="card-body text-center">
@@ -285,7 +285,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-3 mb-4">
-                        <div class="card" style="border: 2px solid #038C33">
+                        <div class="card" style="border: 2px solid #038C33;height:100%;">
                             <img src="{{ asset('frontend_assets/common/homePage/21.png') }}"
                                 class="card-img-top p-3 img-fluid" alt="...">
                             <div class="card-body text-center">
