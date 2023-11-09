@@ -20,6 +20,9 @@ Route::group(['prefix' => '/services'], function () {
     Route::get('/seed-laboratory', [MasterController::class, 'seed_laboratory'])->name('seed-laboratory');
     Route::get('/seed-storage', [MasterController::class, 'seed_storage'])->name('seed-storage');
 });
+Route::group(['prefix' => 'products'], function () {
+    Route::get('/', [MasterController::class, 'allProduct'])->name('all-products');
+});
 
 Route::get('/clients', [MasterController::class, 'clients'])->name('clients');
 Route::get('/contact', [MasterController::class, 'contact'])->name('contact');
