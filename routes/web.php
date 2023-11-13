@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\admin\MasterController as AdminMasterController;
+use App\Http\Controllers\Admin\MasterController as AdminMasterController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Frontend\MasterController;
 use Illuminate\Support\Facades\Hash;

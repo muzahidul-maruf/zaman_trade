@@ -132,13 +132,4 @@
             }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
         });
     </script>
-    @if (Session::has('message'))
-        <script>
-            var message = {!! json_encode(Session::get('message')) !!};
-            toastr.success(message, {
-                timeOut: 5000
-            });
-        </script>
-    @endif
-
 @endsection
