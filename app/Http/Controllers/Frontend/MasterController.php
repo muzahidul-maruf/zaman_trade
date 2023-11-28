@@ -55,6 +55,10 @@ class MasterController extends Controller
     {
         return view('frontend.pages.gallery');
     }
+    public function products()
+    {
+        return view('frontend.pages.product.all-products');
+    }
 
 
     public function message_store(Request $request)

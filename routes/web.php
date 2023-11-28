@@ -21,6 +21,11 @@ Route::group(['prefix' => '/services'], function () {
     Route::get('/seed-storage', [MasterController::class, 'seed_storage'])->name('seed-storage');
 });
 
+Route::group(['prefix' => 'products'], function () {
+    Route::get('/', [MasterController::class, 'products'])->name('all-products');
+    
+});
+
 Route::get('/clients', [MasterController::class, 'clients'])->name('clients');
 Route::get('/contact', [MasterController::class, 'contact'])->name('contact');
 Route::get('/gallery', [MasterController::class, 'gallery'])->name('gallery');
