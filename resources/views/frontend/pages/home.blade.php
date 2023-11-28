@@ -214,17 +214,20 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-4 col-lg-3 mb-4">
-                        <div class="card" style="border: 2px solid #038C33;height:100%;">
-                            <img src="{{ asset('frontend_assets/common/homePage/14.png') }}"
-                                class="card-img-top p-3 img-fluid" alt="...">
-                            <div class="card-body text-center">
-                                <p class="card-text">Grain Moisture Meter LDS 1G</p>
-                                <a href="#" class="btn text-white" style="background-color: #038C33">Read More</a>
+                    @foreach ($products as $item)
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="card" style="border: 2px solid #038C33;height:100%;">
+                                <img src="{{ asset($item->image) }}" class="card-img-top p-3 img-fluid" alt="...">
+                                <div class="card-body text-center">
+                                    <p class="card-text">{{ $item->name }}</p>
+                                    <a href="{{ route('productDetails', $item->id) }}" class="btn text-white"
+                                        style="background-color: #038C33">Read
+                                        More</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 col-lg-3 mb-4">
+                    @endforeach
+                    {{-- <div class="col-md-4 col-lg-3 mb-4">
                         <div class="card" style="border: 2px solid #038C33;height:100%;">
                             <img src="{{ asset('frontend_assets/common/homePage/15.png') }}"
                                 class="card-img-top p-3 img-fluid" alt="...">
@@ -293,7 +296,7 @@
                                 <a href="#" class="btn text-white" style="background-color: #038C33">Read More</a>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
                 </div>
 
