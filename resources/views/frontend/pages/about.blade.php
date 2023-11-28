@@ -12,36 +12,18 @@
                 <h5 class="text-white mb-0"><b>ABOUT US</b></h5>
             </div>
         </div>
-
-
-
-
+        
         <section id="departments" class="departments">
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-12 details order-1 order-lg-2">
                         <h3 class="text-start section_title" style="color: #038C33">OUR STORY</h3>
-                        <p class="text-start">Askco Multipurpose Specialized Preservation Center Limited was started in 2002
-                            by Ltd. Col MA
-                            Mannan (Retd.) and the pioneer Company in Bangladesh for multi specialized cold storage seeing
-                            the exigency to store agro commodities humid for retaining their market value and efficient
-                            future us. Askco has been serving to multi nation and national corporate seed company for all
-                            kind of seed, fruits, vegetable, processed food & pharmacy industries with 18 (eighteen) years
-                            of expertise in the technology of Cold Storage preservation. The preservation mainly capacity of
-                            this is about 4500 Metric tons batch wise. The project consist of pre - fabricated sand which is
-                            favorable especially for seed product and fresh fruits & vegetable preservation & Processing
-                            also. It has dehumidifier for exp & humidifier system which can keep high humid & low humid
-                            Product.
-
-                            It has pre - cooling & entry room available here. Climate controlled preservation facilities
-                            with a range of temperature from 0 degree centigrade & relative humidity in the atmosphere
-                            maintained from 40%-99% according to the en serving requirement of the product preserved. Askeo
-                            multipurpose specialized preservation center limited has innovated and engineered the 1st of
-                            kind rack of supported global standard cold storage in Bangladesh for seed. The project
-                            reservation mainly preserves Seeds, vegetables all type of fruits & local agriculture consist
-                            product in the peak season and then sale in the lean period when prices of the products is
-                            relatively high. In fact the ultimate target of this project is to go for export our local
-                            vegetables to the foreign market for earning foreign currency
+                        <p class="text-start">Zaman Trade International is a leading international trading company with a
+                            primary commitment to providing exceptional customer service. Our business revolves around the
+                            core principles of attentiveness, effectiveness, and proactivity. We take pride in delivering
+                            personalized attention to each of our valued customers, ensuring their unique needs and
+                            preferences are met with precision and care. With a dedication to excellence, Zaman Trade
+                            International continues to stand as a trusted partner in the world of global trade.
                         </p>
                     </div>
 
