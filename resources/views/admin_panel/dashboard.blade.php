@@ -30,13 +30,4 @@
 @endsection
 
 @section('custom_js')
-    @if (Session::has('message'))
-        <script>
-            var message = {!! json_encode(Session::get('message')) !!};
-            toastr.success(message, {
-                timeOut: 5000
-            });
-        </script>
-    @endif
-
 @endsection
