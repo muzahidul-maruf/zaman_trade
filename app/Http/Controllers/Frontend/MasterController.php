@@ -32,6 +32,7 @@ class MasterController extends Controller
     {
 
         $products = Product::paginate(9);
+        
         return view('frontend.pages.product.all-products', compact(['products']));
     }
     public function productDetails($id)
@@ -43,6 +44,10 @@ class MasterController extends Controller
             return view('frontend.pages.product.productDetails', compact(['product', 'other_products']));
         }
         abort(404);
+    }
+    public function products()
+    {
+        return view('frontend.pages.product.all-products');
     }
 
 

@@ -17,6 +17,7 @@ Route::group(['prefix' => 'products'], function () {
     Route::get('/details/{id}', [MasterController::class, 'productDetails'])->name('productDetails');
 });
 
+
 Route::get('/clients', [MasterController::class, 'clients'])->name('clients');
 Route::get('/contact', [MasterController::class, 'contact'])->name('contact');
 
