@@ -11,25 +11,9 @@
                         <img src="{{ asset('frontend_assets/common/logo/2.png') }}" alt="" class="img-fluid w-50"
                             style="border-radius: 10px;">
                     </a>
-                    {{-- <p class="mt-3">
-                        <strong>Phone:</strong> 01678590205 - 9<br>
-                        <strong>Email:</strong> askco_msp@ymail.com<br>
-                        <strong>Email:</strong> chandan_msp@ymail.com<br>
-                    </p> --}}
+
                 </div>
 
-                {{-- <div class="col-lg-3 col-md-6 footer-links">
-                    <h4 class="text-white mb-0">Registered Office</h4>
-                    <p>
-                        House: 34, Old DOHS <br>
-                        Dhaka cantonment.<br>
-                        Banani, Dhaka-1206 <br>
-                    </p>
-                    <h4 class="text-white mb-0">Industry</h4>
-                    <p>
-                        Holding: 01, Ward: 05, <br> Road: 02, Block: B, <br> Ashulia, Dhaka
-                    </p>
-                </div> --}}
                 <div class="col-md-4 footer-links">
                     <h4 class="text-white">Quick Links</h4>
                     <ul class="text-white">
@@ -42,8 +26,9 @@
                 <div class="col-md-4 footer-links">
                     <h4 class="text-white mb-0">Follow Us</h4>
                     <div class="social-links text-md-right pt-3 pt-md-0">
-                        <a target="_blank" href="https://www.facebook.com" class="facebook"><i
-                                class="bx bxl-facebook"></i></a>
+                        <a target="_blank"
+                            href="https://www.facebook.com/ZTIPPE?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0"
+                            class="facebook"><i class="bx bxl-facebook"></i></a>
                         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                     </div>
