@@ -19,6 +19,10 @@ class MasterController extends Controller
     {
         return view('frontend.pages.about');
     }
+    public function sister_concern()
+    {
+        return view('frontend.pages.sister-concern');
+    }
     public function contact()
     {
         return view('frontend.pages.contact');
