@@ -27,7 +27,11 @@
                 </li> --}}
                 <li><a class="nav-link scrollto @yield('products_menu_active')" href="{{route('all-products')}}"><b>OUR PRODUCTS</b></a>
                 </li>
-                <li><a class="nav-link scrollto @yield('clients_menu_active')" href="{{ route('clients') }}"><b>OUR CLIENTS</b></a>
+                <li>
+                    <a class="nav-link scrollto @yield('clients_menu_active')" href="{{ route('clients') }}"><b>OUR CLIENTS</b></a>
+                </li>
+                <li>
+                    <a class="nav-link scrollto @yield('sister_concern_menu_active')" href="{{ route('sister-concern') }}"><b>SISTER CONCERN</b></a>
                 </li>
                 {{-- <li><a class="nav-link scrollto @yield('gallery_menu_active')" href="{{ route('gallery') }}">Gallery</a></li> --}}
                 <li><a class="nav-link scrollto @yield('contact_menu_active')" href="{{ route('contact') }}"><b>CONTACT</b></a></li>
