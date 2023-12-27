@@ -41,6 +41,10 @@
     <link href="{{ asset('frontend_assets/client-slider.css') }}" rel="stylesheet">
 
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: 'Poppins', 'Roboto';
         }

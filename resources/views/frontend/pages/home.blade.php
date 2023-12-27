@@ -58,7 +58,8 @@
                             <h5 class="mt-4">Agricultural Products Producer</h5>
                         </div>
                         <div class="mt-3 text-center">
-                            <a href="" class="appointment-btn mb-2">See More</a>
+                            <a href="{{ route('agricultural-products-producer') }}" class="appointment-btn mb-2">See
+                                More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4 h-100">
@@ -88,7 +89,7 @@
                             <h5 class="mt-4">Agro Machinery Supplier</h5>
                         </div>
                         <div class="mt-3 text-center">
-                            <a href="" class="appointment-btn mb-2">See More</a>
+                            <a href="{{ route('agro-machinery-supplier') }}" class="appointment-btn mb-2">See More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4 h-100">
@@ -97,13 +98,14 @@
                                 alt="">
                             <div class="mt-3">
 
-                                <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/service-logo.png') }}"
-                                    alt="" style="background: white;border-radius: 15px;">
+                                <img class="img-fluid"
+                                    src="{{ asset('frontend_assets/common/homePage/service-logo.png') }}" alt=""
+                                    style="background: white;border-radius: 15px;">
                             </div>
                             <h5 class="mt-4">Warehouse Facility</h5>
                         </div>
                         <div class="mt-3 text-center">
-                            <a href="" class="appointment-btn mb-2">See More</a>
+                            <a href="{{ route('warehouse-facility') }}" class="appointment-btn mb-2">See More</a>
                         </div>
                     </div>
 
@@ -120,7 +122,8 @@
                             <h5 class="mt-4">Manpower Outsourcing and Vendor Management</h5>
                         </div>
                         <div class="mt-3 text-center">
-                            <a href="" class="appointment-btn mb-2">See More</a>
+                            <a href="{{ route('manpower-outsourcing-and-vendor-management') }}"
+                                class="appointment-btn mb-2">See More</a>
                         </div>
                     </div>
 

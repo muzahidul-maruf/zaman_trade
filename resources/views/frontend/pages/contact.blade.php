@@ -52,13 +52,32 @@
                     <div class="col-md-6">
                         <h5 class="text-uppercase mb-md-4" style="color: #038C33"><b>CONTACT US FOR ANY QUESTIONS</b></h5>
                         <h6><b>Corporate Office</b></h6>
-                        <p>
+                        <p style="margin-bottom:5px">
                             5th Floor, Bhuia Bari, Majar Cawrasta, <br> Uttar Khan, Uttara, Dhaka-1230
+                        </p>
+                        <p>
+                            <i class="fa-brands fa-square-whatsapp fa-xl" style="color: #038C33;"></i> WhatsApp Us:
+                            +8801714688549
                         </p>
                         <br>
                         <h6 class="" style=""><b>Reg. Office & Factory</b></h6>
-                        <p class="mb-5">
+                        <p style="margin-bottom:5px">
                             Bagni Bari, Moista Para, Birulia, Savar, Dhaka
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-phone" style="color: #038C33;"></i> Contact: +8801772373273
+                        </p>
+                        <br>
+                        <h6 class="" style=""><b>Factory 02 (Pesticide)</b></h6>
+                        <p>
+                            BSCIC Industrial Estate: 6000 sq/ft
+                            Narsingdi
+                        </p>
+                        <br>
+                        <h6 class="" style=""><b>Factory 03 (Warehouse)</b></h6>
+                        <p class="mb-5">
+                            BSCIC Industrial Estate: 12000 sq/ft
+                            Bhairab
                         </p>
 
                         <h4 style="color: #038C33" class="text-uppercase"><b>Follow our social network</b></h4>
