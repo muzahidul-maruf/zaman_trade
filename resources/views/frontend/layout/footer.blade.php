@@ -4,14 +4,27 @@
         <div class="container">
             <div class="row">
 
-                <div class=" col-md-4 footer-contact">
+                <div class="col-md-4 footer-contact">
                     <p>Corporate Office: 5th Floor, Bhuia Bari, Majar Cawrasta,
                         Uttar Khan, Uttara, Dhaka-1230</p>
                     <a href="/" class="logo me-auto">
                         <img src="{{ asset('frontend_assets/common/logo/2.png') }}" alt="" class="img-fluid w-50"
                             style="border-radius: 10px;">
                     </a>
+                    <div class="mt-2">
+                        <ul style="list-style: none;padding-left: 0;">
+                            <li style="display: flex;align-items: center;">
+                                <i class="fa-solid fa-location-dot me-3"></i>
+                                <div>
+                                    Corporate Office: 5th Floor, Bhuia Bari, Majar Cawrasta,
+                                    Uttar Khan, Uttara, Dhaka-1230
+                                </div>
 
+                            </li>
+                            <li><i class="fa-solid fa-phone me-3"></i>+8801714688549</li>
+                            <li><i class="fa-solid fa-envelope me-3"></i>zamantrade1988@gmail.com</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="col-md-4 footer-links">
@@ -51,7 +64,8 @@
 
     <div class="container d-md-flex py-4">
 
-        <div class="me-md-auto text-center text-md-start text-white">
+        {{-- <div class="me-md-auto text-center text-md-start text-white"> --}}
+        <div class="text-center text-white w-100">
             <div class="copyright">
                 &copy; 2023 All Right Reserved, Zaman Trade International
             </div>

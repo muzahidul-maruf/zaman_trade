@@ -23,6 +23,22 @@ class MasterController extends Controller
     {
         return view('frontend.pages.sister-concern');
     }
+    public function agricultural_products_producer()
+    {
+        return view('frontend.pages.service.agricultural-products-producer');
+    }
+    public function agro_machinery_supplier()
+    {
+        return view('frontend.pages.service.agro-machinery-supplier');
+    }
+    public function warehouse_facility()
+    {
+        return view('frontend.pages.service.warehouse-facility');
+    }
+    public function manpower_outsourcing_and_vendor_management()
+    {
+        return view('frontend.pages.service.manpower-outsourcing-and-vendor-management');
+    }
     public function contact()
     {
         return view('frontend.pages.contact');
@@ -36,7 +52,7 @@ class MasterController extends Controller
     {
 
         $products = Product::paginate(9);
-        
+
         return view('frontend.pages.product.all-products', compact(['products']));
     }
     public function productDetails($id)
