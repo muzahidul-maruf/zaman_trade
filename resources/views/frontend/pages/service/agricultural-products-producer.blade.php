@@ -1,37 +1,93 @@
 @extends('frontend.layout.master')
-@section('about_menu_active', 'active')
+@section('home_menu_active', 'active')
 @section('page_title')
-    About us
+    Agricultural Products Producer
 @endsection
 @section('content')
     <main id="main" style="min-height: 90vh;">
         <div class="inner_page_hero d-flex flex-column align-items-center">
-            <img src="{{ asset('frontend_assets/common/about_hero.png') }}" alt="" class="w-100">
+            <img src="{{ asset('frontend_assets/common/service/agricultural_products_producer/hero.png') }}" alt=""
+                class="w-100">
 
             <div class="text-center inner-box">
-                <h5 class="text-white mb-0"><b>ABOUT US</b></h5>
+                <h5 class="text-white mb-0"><b>Agricultural Products Producer</b></h5>
             </div>
         </div>
 
         <section id="departments" class="departments">
             <div class="container">
-                <div class="row gy-4">
-                    <div class="col-lg-12 details order-1 order-lg-2">
-                        <h3 class="text-start section_title" style="color: #038C33">OUR STORY</h3>
-                        <p class="text-start">Zaman Trade International is a leading international trading company with a
-                            primary commitment to providing exceptional customer service. Our business revolves around the
-                            core principles of attentiveness, effectiveness, and proactivity. We take pride in delivering
-                            personalized attention to each of our valued customers, ensuring their unique needs and
-                            preferences are met with precision and care. With a dedication to excellence, Zaman Trade
-                            International continues to stand as a trusted partner in the world of global trade.
-                        </p>
+                <div class="row py-2 py-lg-4">
+                    <div class="col-md-6 mb-3">
+                        <div style="display: flex;justify-content: center;align-items: center;">
+                            <img src="{{ asset('frontend_assets/common/service/agricultural_products_producer/1.png') }}"
+                                alt="" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div
+                            style="background: #94B05C;display: flex;justify-content: center;align-items: center;border:2px solid #038C33;border-radius: 9px;">
+                            <img src="{{ asset('frontend_assets/common/service/agricultural_products_producer/2.png') }}"
+                                alt="" class="img-fluid" style="margin: 10px 0;">
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <h4 class="text-center mt-4" style="color:#025928">Hybrid Rice Seed</h4>
                     </div>
 
                 </div>
+
+                <div class="row py-2 py-lg-4">
+                    <div class="col-md-6 mb-3">
+                        <div style="display: flex;justify-content: center;align-items: center;">
+                            <img src="{{ asset('frontend_assets/common/service/agricultural_products_producer/3.png') }}"
+                                alt="" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div
+                            style="background: #F7F8FA;display: flex;justify-content: center;align-items: center;border:2px solid #038C33;border-radius: 10px;">
+                            <img src="{{ asset('frontend_assets/common/service/agricultural_products_producer/4.png') }}"
+                                alt="" class="img-fluid" style="margin: 15px 0;">
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <h4 class="text-center mt-4" style="color:#025928">Hybrid Maize Seed</h4>
+                    </div>
+
+                </div>
+
+
+                <div class="row py-2 py-lg-4">
+                    <div class="col-md-6 mb-3">
+                        <div style="display: flex;justify-content: center;align-items: center;">
+                            <img src="{{ asset('frontend_assets/common/service/agricultural_products_producer/5.png') }}"
+                                alt="" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div style="display: flex;justify-content: center;align-items: center;">
+                            <img src="{{ asset('frontend_assets/common/service/agricultural_products_producer/6.png') }}"
+                                alt="" class="img-fluid" style="">
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <h4 class="text-center mt-4" style="color:#025928">Hybrid Vegetables Seed</h4>
+                    </div>
+
+                </div>
+
+
+
             </div>
         </section>
 
-        <section id="" class="pt-0">
+        {{-- <section id="" class="pt-0">
             <div class="container">
                 <div class="row p-3" style="background-color: #038C33; color:white; border-radius:10px;">
                     <div class="col-12 details">
@@ -92,47 +148,6 @@
                 </div>
             </div>
         </section>
-
-
-        <section id="" class="pt-0">
-            <div class="container">
-                <div class="row justify-content-center" style="">
-                    <h3 class="section_title text-uppercase" style="color: #038C33">The Founder’s Message</h3>
-
-                    <div class="col-md-6 mb-3">
-                        <p>
-                            As-Salaam-Alaikum,<br>
-                            Agriculture is the largest employment sector and also one of the key economic pillars of
-                            Bangladesh. Young Bangladeshis are fueling a sharp rise in the labor force and supporting
-                            industrialization and consumption. Bangladesh is powered by a rising young population. It is the
-                            root of all developments and my passion for Food Corps and agriculture stems from a deep-rooted
-                            belief in the importance of food security, health, and environmental sustainability.
-                            Globalization of agricultural trade will highlight access to markets, new opportunities for
-                            employment and income generation, productivity gains and increased investment in sustainable
-                            agriculture and rural development.
-                        </p>
-                        <p>
-                            I started my journey in agriculture industry from 2008 and I obliged to Almighty Allah for my
-                            present situation. Also grateful to my farmers, dealers, colleagues and other stakeholders. I
-                            started with trading agri commodities and now are involved widely with agro inputs specially
-                            Storage and Processing Solutions, Seeds Production & Marketing (Hybrid Rice, Maize, Vegetables),
-                            Seed Processing Machineries, Seed field & Lab Equipment, Fertilizers and Pesticides. Hope we
-                            will make a standard entrepreneurship near future by the grace of Almighty Allah.
-                        </p>
-                        <p class="mt-5">
-                            <b>Md. Nuruzzaman (Chandan)</b><br>
-                            Founder of “Zaman Trade International”
-                        </p>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <div style="height: 100%;display: flex;justify-content: center;align-items: center;">
-                            <img src="{{ asset('frontend_assets/common/founder.png') }}" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
 
 
         <section id="" class="pt-0">
@@ -238,60 +253,11 @@
 
                 </div>
             </div>
-        </section>
+        </section> --}}
 
 
 
-        <!-- ====== Clients Slider ====== -->
-        <section id="about" class="about client_slider pt-0">
 
-            <div class="section-title">
-                <h2 class="section_title mb-0" style="color: #038C33">OUR VALUABLE CLIENTS</h2>
-            </div>
-            <section class="client-slider" style="padding: 20px 0px">
-                <div class="slider">
-                    <div class="logos me-3 me-md-0">
-                        <img src="{{ asset('frontend_assets/common/client-slider/1.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/2.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/3.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/4.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/5.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/6.png') }}">
-                    </div>
-                    <div class="logos">
-                        <img src="{{ asset('frontend_assets/common/client-slider/1.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/2.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/3.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/4.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/5.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/6.png') }}">
-                    </div>
-                </div>
-            </section>
-            <section class="client-slider" style="padding: 20px 0px">
-                <div class="slider">
-                    <div class="logos me-3 me-md-0">
-                        {{-- <img src="{{ asset('frontend_assets/common/client-slider/7.png') }}"> --}}
-                        <img src="{{ asset('frontend_assets/common/client-slider/8.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/9.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/10.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/11.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/12.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/13.png') }}">
-                    </div>
-                    <div class="logos">
-                        {{-- <img src="{{ asset('frontend_assets/common/client-slider/7.png') }}"> --}}
-                        <img src="{{ asset('frontend_assets/common/client-slider/8.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/9.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/10.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/11.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/12.png') }}">
-                        <img src="{{ asset('frontend_assets/common/client-slider/13.png') }}">
-                    </div>
-                </div>
-            </section>
-
-        </section>
     </main>
 
 

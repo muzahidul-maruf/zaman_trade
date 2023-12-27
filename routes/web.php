@@ -12,6 +12,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [MasterController::class, 'index'])->name('home_page');
 Route::get('/about-us', [MasterController::class, 'about_us'])->name('about_us_page');
 Route::get('/sister-concern', [MasterController::class, 'sister_concern'])->name('sister-concern');
+Route::get('/services/agricultural-products-producer', [MasterController::class, 'agricultural_products_producer'])->name('agricultural-products-producer');
+Route::get('/services/agro-machinery-supplier', [MasterController::class, 'agro_machinery_supplier'])->name('agro-machinery-supplier');
+Route::get('/services/warehouse-facility', [MasterController::class, 'warehouse_facility'])->name('warehouse-facility');
+Route::get('/services/manpower-outsourcing-and-vendor-management', [MasterController::class, 'manpower_outsourcing_and_vendor_management'])->name('manpower-outsourcing-and-vendor-management');
 
 Route::group(['prefix' => 'products'], function () {
     Route::get('/', [MasterController::class, 'allProduct'])->name('all-products');

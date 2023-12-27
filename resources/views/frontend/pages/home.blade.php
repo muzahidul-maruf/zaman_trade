@@ -11,46 +11,6 @@
 
     <main id="main">
         <!-- ======= Why Us Section ======= -->
-        {{-- <section id="why-us" class="why-us">
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-lg-12 d-flex align-items-stretch">
-                        <div class="icon-boxes d-flex flex-column justify-content-center">
-                            <div class="row">
-                                <div class="col-xl-3 d-flex align-items-stretch">
-                                    <div class="icon-box mt-4 mt-xl-0" style="background: #458301">
-                                        <i class="fa-solid fa-truck-arrow-right"></i>
-                                        <h4>Transport Facility</h4>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 d-flex align-items-stretch">
-                                    <div class="icon-box mt-4 mt-xl-0" style="background: #2E3191;">
-                                        <i class="fa-solid fa-charging-station"></i>
-                                        <h4>Backup Generator</h4>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 d-flex align-items-stretch">
-                                    <div class="icon-box mt-4 mt-xl-0" style="background: #458301">
-                                        <i class="fa-solid fa-vial-virus"></i>
-                                        <h4>Laboratory Equipments & Facility</h4>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 d-flex align-items-stretch">
-                                    <div class="icon-box mt-4 mt-xl-0" style="background: #2E3191">
-                                        <i class="fa-regular fa-snowflake"></i>
-                                        <h4>Dehumidifier &
-                                            Humidifier System</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section> --}}
 
         <section id="departments" class="departments pt-0">
             <div class="container">
@@ -86,46 +46,84 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="icon-box" style="height: 100%">
+                    <div class="col-lg-4 col-md-6 mb-4 h-100">
+                        <div class="icon-box" style="min-height:421px;height: 100%;">
                             <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/2.png') }}"
                                 alt="">
+                            <div class="mt-3">
+
+                                <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/service-logo.png') }}"
+                                    alt="" style="background: white;border-radius: 15px;">
+                            </div>
                             <h5 class="mt-4">Agricultural Products Producer</h5>
                         </div>
+                        <div class="mt-3 text-center">
+                            <a href="{{ route('agricultural-products-producer') }}" class="appointment-btn mb-2">See
+                                More</a>
+                        </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="icon-box" style="height: 100%">
+                    <div class="col-lg-4 col-md-6 mb-4 h-100">
+                        <div class="icon-box" style="min-height:421px;height: 100%;">
                             <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/3.png') }}"
                                 alt="">
+                            <div class="mt-3">
+
+                                <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/service-logo.png') }}"
+                                    alt="" style="background: white;border-radius: 15px;">
+                            </div>
                             <h5 class="mt-4">Agricultural Products Distributor</h5>
                         </div>
+                        {{-- <div class="mt-3 text-center">
+                            <a href="" class="appointment-btn mb-2">See More</a>
+                        </div> --}}
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="icon-box" style="height: 100%">
+                    <div class="col-lg-4 col-md-6 mb-4 h-100">
+                        <div class="icon-box" style="min-height:421px;height: 100%;">
                             <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/4.png') }}"
                                 alt="">
+                            <div class="mt-3">
+
+                                <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/service-logo.png') }}"
+                                    alt="" style="background: white;border-radius: 15px;">
+                            </div>
                             <h5 class="mt-4">Agro Machinery Supplier</h5>
                         </div>
+                        <div class="mt-3 text-center">
+                            <a href="{{ route('agro-machinery-supplier') }}" class="appointment-btn mb-2">See More</a>
+                        </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="icon-box" style="height: 100%">
+                    <div class="col-lg-4 col-md-6 mb-4 h-100">
+                        <div class="icon-box" style="min-height:421px;height: 100%;">
                             <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/5.png') }}"
                                 alt="">
+                            <div class="mt-3">
+
+                                <img class="img-fluid"
+                                    src="{{ asset('frontend_assets/common/homePage/service-logo.png') }}" alt=""
+                                    style="background: white;border-radius: 15px;">
+                            </div>
                             <h5 class="mt-4">Warehouse Facility</h5>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="icon-box" style="height: 100%">
-                            <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/6.png') }}"
-                                alt="">
-                            <h5 class="mt-4">Garments Products (Knit Item)</h5>
+                        <div class="mt-3 text-center">
+                            <a href="{{ route('warehouse-facility') }}" class="appointment-btn mb-2">See More</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="icon-box" style="height: 100%">
+
+                    <div class="col-lg-4 col-md-6 mb-4 h-100">
+                        <div class="icon-box" style="min-height:421px;height: 100%;">
                             <img class="img-fluid" src="{{ asset('frontend_assets/common/homePage/7.png') }}"
                                 alt="">
+                            <div class="mt-3">
+
+                                <img class="img-fluid"
+                                    src="{{ asset('frontend_assets/common/homePage/service-logo.png') }}" alt=""
+                                    style="background: white;border-radius: 15px;">
+                            </div>
                             <h5 class="mt-4">Manpower Outsourcing and Vendor Management</h5>
+                        </div>
+                        <div class="mt-3 text-center">
+                            <a href="{{ route('manpower-outsourcing-and-vendor-management') }}"
+                                class="appointment-btn mb-2">See More</a>
                         </div>
                     </div>
 
