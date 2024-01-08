@@ -29,80 +29,66 @@
                         <div class="card-header">
                             <h3 class="card-title">All messages</h3>
                         </div>
-                        <!-- /.card-header -->
                         <div class="card-body">
-                            <table id="example1" class="table table-bordered table-striped">
-                                <thead>
-                                    <tr>
-                                        <th>Sl.</th>
-                                        <th>Name</th>
-                                        <th>Phone</th>
-                                        <th>Email</th>
-                                        <th>Address</th>
-                                        <th>Query Type</th>
-                                        <th>subject</th>
-                                        <th>Message</th>
-                                        <th>Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @php
-                                        $sl = 1;
-                                    @endphp
-                                    @foreach ($all_messages as $data)
+                            <div style="overflow-x: auto;">
+                                <table id="example1" class="table table-bordered table-striped" style="width: 100%;">
+                                    <thead>
                                         <tr>
-                                            <td>
-                                                {{ $sl++ }}
-                                            </td>
-
-                                            <td>
-                                                {{ $data->name }}
-                                            </td>
-                                            <td>
-                                                <a href="tel:{{ $data->phone }}"
-                                                    class="btn btn-link btn-link-primary text-lowercase p-0"
-                                                    style="text-decoration: none;color:rgb(0, 0, 0);">{{ $data->phone }}</a>
-                                            </td>
-
-                                            <td>
-                                                <a href="mailto:{{ $data->email }}"
-                                                    class="btn btn-link btn-link-primary text-lowercase p-0"
-                                                    style="text-decoration: none;color:rgb(0, 0, 0);">{{ $data->email }}</a>
-                                            </td>
-                                            <td>{{ $data->address }}</td>
-                                            <td>{{ $data->type_of_query }}</td>
-                                            <td>{{ $data->subject }}</td>
-                                            <td>
-                                                <span title="{{ $data->message }}"
-                                                    class="text-truncate table-truncate d-inline-block">
-                                                    {{ $data->message }}</span>
-                                            </td>
-                                            <td>
-                                                <a href="{{ route('admin.messages.destroy', $data->id) }}"
-                                                    onclick="return confirm('Are you sure you want to delete?');"
-                                                    type="button" class="btn btn-danger btn-sm">
-
-                                                    <i class="fa fa-trash"></i>
-                                                </a>
-                                            </td>
-
+                                            <th>Sl.</th>
+                                            <th>Name</th>
+                                            <th>Phone</th>
+                                            <th>Email</th>
+                                            <th>Address</th>
+                                            <th>Query Type</th>
+                                            <th>subject</th>
+                                            <th style="width: 10%;">Message</th>
+                                            <th>Action</th>
                                         </tr>
-                                    @endforeach
+                                    </thead>
+                                    <tbody>
+                                        @php
+                                            $sl = 1;
+                                        @endphp
+                                        @foreach ($all_messages as $data)
+                                            <tr>
+                                                <td>
+                                                    {{ $sl++ }}
+                                                </td>
 
+                                                <td>
+                                                    {{ $data->name }}
+                                                </td>
+                                                <td>
+                                                    <a href="tel:{{ $data->phone }}"
+                                                        class="btn btn-link btn-link-primary text-lowercase p-0"
+                                                        style="text-decoration: none;color:rgb(0, 0, 0);">{{ $data->phone }}</a>
+                                                </td>
 
-                                    {{-- </tbody>
-                                <tfoot>
-                                    <tr>
-                                        <th>Sl.</th>
-                                        <th>Name</th>
-                                        <th>Phone</th>
-                                        <th>Email</th>
-                                        <th>Message</th>
-                                        <th>Action</th>
+                                                <td>
+                                                    <a href="mailto:{{ $data->email }}"
+                                                        class="btn btn-link btn-link-primary text-lowercase p-0"
+                                                        style="text-decoration: none;color:rgb(0, 0, 0);">{{ $data->email }}</a>
+                                                </td>
+                                                <td>{{ $data->address }}</td>
+                                                <td>{{ $data->type_of_query }}</td>
+                                                <td>{{ $data->subject }}</td>
+                                                <td style="width: 10%;">
+                                                    {{ $data->message }}
+                                                </td>
+                                                <td>
+                                                    <a href="{{ route('admin.messages.destroy', $data->id) }}"
+                                                        onclick="return confirm('Are you sure you want to delete?');"
+                                                        type="button" class="btn btn-danger btn-sm">
 
-                                    </tr>
-                                </tfoot> --}}
-                            </table>
+                                                        <i class="fa fa-trash"></i>
+                                                    </a>
+                                                </td>
+
+                                            </tr>
+                                        @endforeach
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                         <!-- /.card-body -->
                     </div>
@@ -127,7 +113,7 @@
                 "ordering": true,
                 "info": true,
                 "autoWidth": false,
-                "responsive": true,
+                "responsive": false,
                 //   "buttons": ["csv", "excel"]
             }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
         });

@@ -4,13 +4,12 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-4 footer-contact">
-                    <p>Corporate Office: 5th Floor, Bhuia Bari, Majar Cawrasta,
-                        Uttar Khan, Uttara, Dhaka-1230</p>
+                <div class="col-md-5 col-lg-4 footer-contact">
                     <a href="/" class="logo me-auto">
                         <img src="{{ asset('frontend_assets/common/logo/2.png') }}" alt="" class="img-fluid w-50"
                             style="border-radius: 10px;">
                     </a>
+
                     <div class="mt-2">
                         <ul style="list-style: none;padding-left: 0;">
                             <li style="display: flex;align-items: center;">
@@ -27,7 +26,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 footer-links">
+                <div class="col-md-3 col-lg-4 footer-links">
                     <h4 class="text-white">Quick Links</h4>
                     <ul class="text-white">
                         <li><i class="bx bx-chevron-right"></i> <a href="{{ route('home_page') }}">Home</a></li>
