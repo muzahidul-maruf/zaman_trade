@@ -325,6 +325,174 @@
                             Individual Client around the country (160+)
                         </div>
                     </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/25.png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/25.png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Giant Agro
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/26.png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/26.png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Aus Bangla Agro
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/27.png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/27.png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Unilever
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/28.png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/28.png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Getco
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/29.png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/29.png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Samsung
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/30.png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/30.png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Petrochem
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/31.png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/31.png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="gallery_footer">
+                            KB Interlining Ltd.
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/32.png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/32.png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Krishibid Group
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/33.png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/33.png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Royal Gold
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/34.png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/34.png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Pidilite
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/35.png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/35.png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Fevicol
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/36.png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/36.png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="gallery_footer">
+                            Bagrow Preservation Ltd.
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/37.png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/37.png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="gallery_footer">
+                            WinAll Hightech Seed Co.
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/38.png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/38.png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="gallery_footer">
+                            3s Agro Service Ltd.
+                        </div>
+                    </div>
 
                 </div>
 
