@@ -82,8 +82,9 @@
 
                         <h4 style="color: #038C33" class="text-uppercase"><b>Follow our social network</b></h4>
                         <div class="social-links pt-3 pt-md-0">
-                            <a target="_blank" href="https://www.facebook.com/askcomspcentreltd " class="facebook"><i
-                                    class="bx bxl-facebook"></i></a>
+                            <a target="_blank"
+                                href="https://www.facebook.com/ZTIPPE?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0"
+                                class="facebook"><i class="bx bxl-facebook"></i></a>
                             <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                             <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                         </div>
