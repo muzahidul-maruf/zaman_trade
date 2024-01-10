@@ -106,4 +106,15 @@ class ProductController extends Controller
         }
         return abort(404);
     }
+    public function featured($id, $is_featured)
+    {
+        $model = Product::findOrFail($id);
+        if ($is_featured == 0) {
+            $model->is_featured = 1;
+        } elseif ($is_featured == 1) {
+            $model->is_featured = 0;
+        }
+        $model->save();
+        return back()->with('message', 'Update Successful.');
+    }
 }

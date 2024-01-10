@@ -36,6 +36,7 @@
                                     <tr>
                                         <th>Sl.</th>
                                         <th>Name</th>
+                                        <th>Is Featured</th>
                                         <th>Image</th>
                                         <th>Action</th>
                                     </tr>
@@ -52,6 +53,15 @@
 
                                             <td>
                                                 {{ $data->name }}
+                                            </td>
+                                            <td>
+                                                @if ($data->is_featured == 1)
+                                                    <a href="{{ route('admin.products.featured-update', [$data->id, $data->is_featured]) }}"
+                                                        class="btn btn-sm btn-success">YES</a>
+                                                @else
+                                                    <a href="{{ route('admin.products.featured-update', [$data->id, $data->is_featured]) }}"
+                                                        class="btn btn-sm btn-danger">NO</a>
+                                                @endif
                                             </td>
                                             <td>
 
