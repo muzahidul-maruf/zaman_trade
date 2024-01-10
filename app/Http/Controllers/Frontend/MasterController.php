@@ -11,8 +11,7 @@ class MasterController extends Controller
 {
     public function index()
     {
-        // return view('frontend.layout.master');
-        $products = Product::latest()->take(8)->get();
+        $products = Product::where('is_featured',1)->latest()->take(8)->get();
         return view('frontend.pages.home', compact(['products']));
     }
     public function about_us()

@@ -48,6 +48,7 @@ Route::group(['prefix' => '/admin'], function () {
             Route::get('/edit/{id}', [ProductController::class, 'edit'])->name('admin.products.edit');
             Route::put('/update/{id}', [ProductController::class, 'update'])->name('admin.products.update');
             Route::get('/destroy/{id}', [ProductController::class, 'destroy'])->name('admin.products.destroy');
+            Route::get('/feature-update/{id}/{is_featured}', [ProductController::class, 'featured'])->name('admin.products.featured-update');
         });
     });
 });
