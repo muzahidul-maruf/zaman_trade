@@ -1,9 +1,3 @@
-{{-- <section id="hero" class="d-flex align-items-center" style="">
-    <div class="container">
-        <h1 class="text-white">Preserving the Past, <br> Protecting the Future</h1>
-        <h2 class="text-white">Welcome to the Multipurpose Specialized Preservation Center</h2>
-    </div>
-</section> --}}
 <section id="hero">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="margin-top:50px;">
         <div class="carousel-indicators">
@@ -16,24 +10,18 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{ asset('frontend_assets/common/hero/hero_1.png') }}" class="d-block w-100" alt="...">
+                <img src="{{ asset('frontend_assets/common/hero/1.jpg') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption ">
-                    {{-- <h2>Welcome to ASKCO Multipurpose Specialized Preservation Centre Limited</h2>
-                    <p>Fruits & seed storage (DH) with processing</p> --}}
                 </div>
             </div>
             <div class="carousel-item active">
-                <img src="{{ asset('frontend_assets/common/hero/hero_1.png') }}" class="d-block w-100" alt="...">
+                <img src="{{ asset('frontend_assets/common/hero/2.jpg') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption ">
-                    {{-- <h2>Welcome to ASKCO Multipurpose Specialized Preservation Centre Limited</h2>
-                    <p>Fruits & seed storage (DH) with processing</p> --}}
                 </div>
             </div>
             <div class="carousel-item active">
-                <img src="{{ asset('frontend_assets/common/hero/hero_1.png') }}" class="d-block w-100" alt="...">
+                <img src="{{ asset('frontend_assets/common/hero/3.jpg') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption ">
-                    {{-- <h2>Welcome to ASKCO Multipurpose Specialized Preservation Centre Limited</h2>
-                    <p>Fruits & seed storage (DH) with processing</p> --}}
                 </div>
             </div>
 
